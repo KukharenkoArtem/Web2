@@ -1,0 +1,282 @@
+@font-face {
+    font-family: 'bold'; 
+    src: url('font/NunitoSans-Bold.ttf');
+}
+@font-face {
+    font-family: 'semiBold'; 
+    src: url('font/NunitoSans-SemiBold.ttf');
+}
+
+h1, h2, h3, h4, h5, .mainP, .p18Bold, .footerP, .w1, .readMore{
+    font-family: 'bold';
+    color: #EDEDED;
+}
+
+.p16, .p18, a, .footerTxt, .footerTxt2{
+    font-family: 'semiBold';
+    color: #EDEDED;
+} 
+.pdark{
+    color: #2B2B2B; 
+}
+
+
+body{
+    background-color: #2B2B2B;
+}
+header{
+    display: flex;
+    justify-content: space-around;
+    margin: 30px;
+    display: flex;
+    align-items: center;
+}
+
+ul {
+    display: flex;
+    justify-content: center;
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+
+
+nav ul li {
+    margin: 0 20px; 
+}
+
+nav ul li a {
+    text-decoration: none;
+    color: #EDEDED;
+    font-size: 16px; 
+}
+
+nav ul li a:hover {
+    color: #666;
+}
+
+.logo{
+
+    width: 80px;
+    height: 80px;
+    background: #C4C4C4;
+}
+.btn{
+    color: #FFFFFF;
+    font-size: 18px;
+    padding: 11px 15px;
+    background: #423F3E;
+    border-radius: 5px;
+    cursor: pointer;
+}
+.btn:hover{
+    background-color: #EDEDED;
+    border: 1px solid black;
+    color: black;
+    transition: .3s;
+}
+.btn:active{
+    background-color: #C4C4C4;
+}
+
+.mainPage{
+    margin-top: 230px;
+    display: flex;
+    flex-direction: column;
+}
+h1{
+    text-align: center;
+    font-size: 64px;
+    font-weight: bold;
+}
+.mainP{
+    margin-top: 30px !important;
+    margin: auto;
+    font-size: 24px;
+    text-align: center;
+    width: 960px;
+}
+.nullaComodo{
+
+    margin-top: 425px;
+    margin-left: 120px;
+    width: 600px;
+    
+}
+h2{
+    font-size: 53px;
+    font-weight: bold;
+}
+.p16{
+    font-size: 16px;
+    width: 266px;
+}
+.readMore{
+    font-weight: bold;
+    font-size: 18px;
+}
+.readMore::after{
+    content: "";
+    background-image: url('img/arrow\ light.png');
+    background-size: 100%;
+    transform: rotate(180deg);
+    background-repeat: no-repeat;
+    display: inline-block;
+    width: 20px;
+    height: 20px; 
+    margin-left: 5px;
+}
+
+/* .arrow{
+    margin-left:10px;
+    width: 14px;
+    transform: rotate(180deg);
+} */
+.txtComodo{
+    display: flex;
+    justify-content: space-between;
+}
+
+.imgComodo{
+    height: 534px;
+    width: 534px;
+    margin-top: 331px ;
+    margin-right: 118px;
+}
+.nullaC{
+    display: flex;
+    justify-content: space-between;
+}
+
+.nullaUt{
+    margin: 100px 120px 0px 120px;
+    display: flex;
+    justify-content: space-between;
+}
+h3{
+    font-size: 39px;
+}
+.p18{
+    font-size: 18px;
+}
+.works{
+    display: flex;
+    justify-content: space-between;
+    font-weight: bold;
+    margin-top: 20px;
+    font-size: 31px;
+}
+.work1{
+    margin-right: 70px;
+}
+.where{
+    display: flex;
+    justify-content: space-between;
+    margin: 145px 120px 0px 120px;
+}
+h4{
+    font-size: 25px;
+}
+.txtWhere{
+    margin-top: 30px;
+}
+.whereImg{
+    width: 240px;
+    height: 240px;
+    border-radius: 5px;
+}
+.whereImg + .whereImg{
+    margin-left: 60px;
+}
+h5{
+    font-size: 53px;
+    margin-top: 80px;
+    text-align: center;
+    margin-bottom: 0px;
+}
+.blocks{
+    display: flex;
+    justify-content: center;
+}
+.block1{
+    width: 346px;
+    height: 226px;
+    background-color: #EBEBEB;
+    box-shadow: 0px 0px 40px rgba(57, 40, 166, 0.15);
+    border-radius: 5px;
+    margin-top: 80px;
+    padding: 60px 14px 28px 60px;
+
+}
+.block2{
+    width: 346px;
+    height: 226px;
+    background-color: #EBEBEB;
+    box-shadow: 0px 0px 40px rgba(57, 40, 166, 0.15);
+    border-radius: 5px;
+    margin-top: 80px;
+    padding: 60px 14px 28px 60px;
+}
+.block1 + .block2{
+    margin-left: 95px;
+}
+.p18Bold{
+    font-weight: bold;
+}
+.blocktxt{
+    width: 360px;
+    height: 212px;
+}
+footer{
+    margin-top: 100px;
+}
+.figmaLogo{
+    width: 81px;
+    height: 116px;
+    margin-left: 120px;
+    margin-top: 10px;
+}
+footer{
+    margin-top: 100px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.contacts{
+    margin-right: 120px;
+}
+.footerP{
+    text-align: center;
+}
+.socialImg{
+    width: 28px;
+    height: 28px;
+}
+
+.footerTxt{
+    margin-bottom: 0px;
+}
+
+.footerTxt2{
+    margin-top: 0px;
+    display: inline-block;
+}
+.footerTxt2::before{
+    content: "";
+    background-image: url('img/letterC\ light.png');
+    background-size: 100%; 
+    background-repeat: no-repeat;
+    display: inline-block;
+    width: 10px; 
+    height: 10px; 
+    margin-right: 5px;
+}
+
+.darkMode{
+    display: flex;
+    justify-content: space-between;
+}
+.lightMode{
+    
+    display: none;
+}
